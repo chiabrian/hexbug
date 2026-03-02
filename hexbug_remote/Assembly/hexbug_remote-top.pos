@@ -1,0 +1,33 @@
+### Footprint positions - created on 2026-03-02T14:00:41-0500 ###
+### Printed by KiCad version 9.0.6
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                                             PosX       PosY       Rot  Side
+C1        1uF         C_0603_1608Metric                                35.4000     9.9000    0.0000  top
+C2        1uF         C_0603_1608Metric                                57.2000     8.3000  -90.0000  top
+C3        1uF         C_0603_1608Metric                                25.1000    18.2000    0.0000  top
+C4        1uF         C_0603_1608Metric                                26.5000    15.2000    0.0000  top
+C5        10uF        C_0603_1608Metric                                33.8000    16.6000  180.0000  top
+C6        1uF         C_0603_1608Metric                                33.8000    15.0000  180.0000  top
+D1        Red         LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder    43.5000     9.2000    0.0000  top
+D2        Green       LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder    20.4000    25.7000  -90.0000  top
+D3        Red         LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder    17.2000    25.7000  -90.0000  top
+D4        IR          LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm             33.2000    31.7000  180.0000  top
+J2        Conn_01x02  PinHeader_1x02_P2.54mm_Vertical                  39.0750    27.2000  -90.0000  top
+J3        Conn_01x06  PinHeader_1x06_P2.54mm_Vertical                   1.7000    23.6500    0.0000  top
+R1        5.1k        R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      25.8000     5.1000  -90.0000  top
+R2        5.1k        R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      24.3000     5.1000  -90.0000  top
+R3        1k          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      39.2000     9.3000  180.0000  top
+R4        10k         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      41.5000     2.5000  180.0000  top
+R5        1k          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      27.0000    31.7000    0.0000  top
+R6        1k          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      20.4000    22.4000   90.0000  top
+R7        1k          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      17.2000    22.4000   90.0000  top
+R8        1k          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      47.0000     9.3000  180.0000  top
+SW3       Tactile     SW_TH_Tactile_Omron_B3F-106x                      5.4000    13.6000    0.0000  top
+SW4       Tactile     SW_TH_Tactile_Omron_B3F-106x                      5.4000    25.6000    0.0000  top
+SW5       Tactile     SW_TH_Tactile_Omron_B3F-106x                     39.9000    13.4000   90.0000  top
+SW6       Tactile     SW_TH_Tactile_Omron_B3F-106x                     51.9000    13.4000   90.0000  top
+U1        BQ21040     SOT-23-6                                         41.5000     6.2000  180.0000  top
+U2        RT9078      SOT-23-5                                         33.5000    19.8000  -90.0000  top
+U3        MSPM0L1304  TI_DGS20                                         19.3000    17.2000  180.0000  top
+## End

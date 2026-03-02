@@ -8880,7 +8880,7 @@
 	)
 	(symbol
 		(lib_id "-Local_Lib:Resistors/RES-000005")
-		(at 139.7 165.1 0)
+		(at 128.27 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8889,7 +8889,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d9f087f-a458-4f75-98f8-81fb667b1f5a")
 		(property "Reference" "R7"
-			(at 142.24 162.5599 0)
+			(at 130.81 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,7 +8898,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 142.24 165.0999 0)
+			(at 130.81 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,7 +8907,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 140.716 165.354 90)
+			(at 129.286 165.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +8916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 165.1 0)
+			(at 128.27 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +8925,7 @@
 			)
 		)
 		(property "Description" "Res Thick 1k 1/10W 1% 0603"
-			(at 139.7 165.1 0)
+			(at 128.27 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8934,7 +8934,7 @@
 			)
 		)
 		(property "Power" "1/10W"
-			(at 142.24 167.6399 0)
+			(at 130.81 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,7 +8943,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 139.7 165.1 0)
+			(at 128.27 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8952,7 +8952,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 139.7 165.1 0)
+			(at 128.27 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8961,7 +8961,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "RC0603FR-071KL"
-			(at 139.7 165.1 0)
+			(at 128.27 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8970,7 +8970,7 @@
 			)
 		)
 		(property "Manufacturer 2" "Uni-Royal"
-			(at 139.7 165.1 0)
+			(at 128.27 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8979,7 +8979,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 2" "0603WAF1001T5E"
-			(at 139.7 165.1 0)
+			(at 128.27 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8988,7 +8988,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C21190"
-			(at 139.7 165.1 0)
+			(at 128.27 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,7 +8997,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 139.7 165.1 0)
+			(at 128.27 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9158,7 +9158,7 @@
 	)
 	(symbol
 		(lib_id "-Local_Lib:Resistors/RES-000005")
-		(at 128.27 165.1 0)
+		(at 139.7 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9167,7 +9167,7 @@
 		(fields_autoplaced yes)
 		(uuid "41935045-4fd3-4e3f-9401-42132e40ab32")
 		(property "Reference" "R6"
-			(at 130.81 162.5599 0)
+			(at 142.24 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +9176,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 130.81 165.0999 0)
+			(at 142.24 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +9185,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 129.286 165.354 90)
+			(at 140.716 165.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +9194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 165.1 0)
+			(at 139.7 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9203,7 @@
 			)
 		)
 		(property "Description" "Res Thick 1k 1/10W 1% 0603"
-			(at 128.27 165.1 0)
+			(at 139.7 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9212,7 +9212,7 @@
 			)
 		)
 		(property "Power" "1/10W"
-			(at 130.81 167.6399 0)
+			(at 142.24 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9221,7 +9221,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 128.27 165.1 0)
+			(at 139.7 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9230,7 +9230,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 128.27 165.1 0)
+			(at 139.7 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,7 +9239,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "RC0603FR-071KL"
-			(at 128.27 165.1 0)
+			(at 139.7 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9248,7 +9248,7 @@
 			)
 		)
 		(property "Manufacturer 2" "Uni-Royal"
-			(at 128.27 165.1 0)
+			(at 139.7 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,7 +9257,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 2" "0603WAF1001T5E"
-			(at 128.27 165.1 0)
+			(at 139.7 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9266,7 +9266,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C21190"
-			(at 128.27 165.1 0)
+			(at 139.7 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +9275,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 128.27 165.1 0)
+			(at 139.7 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10276,7 +10276,7 @@
 	)
 	(symbol
 		(lib_id "-Local_Lib:Diodes/DIO-000002")
-		(at 128.27 175.26 90)
+		(at 139.7 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10285,7 +10285,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a7ef85a-43d6-4029-9523-096cc938ce7e")
 		(property "Reference" "D2"
-			(at 132.08 175.5774 90)
+			(at 143.51 175.5774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10294,7 +10294,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 132.08 178.1174 90)
+			(at 143.51 178.1174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,7 +10303,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,7 +10312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10321,7 +10321,7 @@
 			)
 		)
 		(property "Description" "Dio LED Green 2.7V 20mA 520nm 0603"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10330,7 +10330,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10339,7 +10339,7 @@
 			)
 		)
 		(property "Type" "LED"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10348,7 +10348,7 @@
 			)
 		)
 		(property "VF" "2.7V"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10357,7 +10357,7 @@
 			)
 		)
 		(property "Current" "20mA"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10366,7 +10366,7 @@
 			)
 		)
 		(property "VR" "-"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10375,7 +10375,7 @@
 			)
 		)
 		(property "trr" "-"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10384,7 +10384,7 @@
 			)
 		)
 		(property "other" "520nm"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +10393,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,7 +10402,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "KT-0603G"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10411,7 +10411,7 @@
 			)
 		)
 		(property "Manufacturer 2" "Lite-On"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10420,7 +10420,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 2" "LTST-C193TGKT-5A"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,7 +10429,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C12624"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10438,7 +10438,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 128.27 175.26 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10453,7 +10453,7 @@
 			(uuid "721b0b66-2e20-4140-b80c-d21d8fd25048")
 		)
 		(instances
-			(project ""
+			(project "hexbug_remote"
 				(path "/04383375-1719-4c0d-877c-ff4fedd005c5"
 					(reference "D2")
 					(unit 1)
@@ -11037,7 +11037,7 @@
 	)
 	(symbol
 		(lib_id "-Local_Lib:Diodes/DIO-000001")
-		(at 139.7 175.26 90)
+		(at 128.27 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11046,7 +11046,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c4d4fc5-467e-465b-9fc7-5372adafeb84")
 		(property "Reference" "D3"
-			(at 143.51 175.5774 90)
+			(at 132.08 175.5774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11055,7 +11055,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 143.51 178.1174 90)
+			(at 132.08 178.1174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11064,7 +11064,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11073,7 +11073,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11082,7 +11082,7 @@
 			)
 		)
 		(property "Description" "Dio LED Red 2V 20mA 620nm 0603"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11091,7 +11091,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11100,7 +11100,7 @@
 			)
 		)
 		(property "Type" "LED"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11109,7 +11109,7 @@
 			)
 		)
 		(property "VF" "2V"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11118,7 +11118,7 @@
 			)
 		)
 		(property "Current" "20mA"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11127,7 +11127,7 @@
 			)
 		)
 		(property "VR" "-"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +11136,7 @@
 			)
 		)
 		(property "trr" "-"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11145,7 +11145,7 @@
 			)
 		)
 		(property "other" "620nm"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11154,7 +11154,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11163,7 +11163,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "KT-0603R"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11172,7 +11172,7 @@
 			)
 		)
 		(property "Manufacturer 2" "Lite-On"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11181,7 +11181,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 2" "LTST-C190EKT"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11190,7 +11190,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C2286"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11199,7 +11199,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 139.7 175.26 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11214,7 +11214,7 @@
 			(uuid "dff65f5a-c8c9-4cb3-9518-0e4dfa18eff4")
 		)
 		(instances
-			(project ""
+			(project "hexbug_remote"
 				(path "/04383375-1719-4c0d-877c-ff4fedd005c5"
 					(reference "D3")
 					(unit 1)

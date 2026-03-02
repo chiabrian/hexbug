@@ -1,0 +1,12 @@
+### Footprint positions - created on 2026-03-02T14:00:41-0500 ###
+### Printed by KiCad version 9.0.6
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                                      PosX       PosY       Rot  Side
+BT1       AA        Battery_Holder_MPD_BCAAPC                 33.8000    16.9000  180.0000  bottom
+J1        USB_C     USBC_16P                                  32.9000     3.9000  180.0000  bottom
+SW1       Tactile   SW_Tactile_SPST_Angled_PTS645Vx58-2LFS    52.6000    33.3000  180.0000  bottom
+SW2       Tactile   SW_Tactile_SPST_Angled_PTS645Vx58-2LFS    14.2000    33.3000  180.0000  bottom
+SW7       SP4T      SW_SP4T_Slide_Samesky_SLW-147844          14.9000     2.5000  180.0000  bottom
+SW8       SPDT      SW_SPDT_Slide_CK_SK12D07VG4               51.9000     2.5000  180.0000  bottom
+## End
