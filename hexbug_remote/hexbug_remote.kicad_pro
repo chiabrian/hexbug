@@ -513,7 +513,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "NC Drill/",
+      "plot": "Gerber/",
       "pos_files": "Assembly/",
       "specctra_dsn": "",
       "step": "hexbug_remote.step",
