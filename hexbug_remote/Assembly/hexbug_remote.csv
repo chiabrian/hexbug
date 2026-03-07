@@ -1,20 +1,18 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"R6,R7,R3,R8,R5";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";5;"1k";;;
-2;"SW4,SW5,SW3,SW6";"SW_TH_Tactile_Omron_B3F-106x";4;"Tactile";;;
-3;"D4";"LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm";1;"IR";;;
-4;"U1";"SOT-23-6";1;"BQ21040";;;
-5;"J3";"PinHeader_1x06_P2.54mm_Vertical";1;"Conn_01x06";;;
-6;"R2,R1";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"5.1k";;;
-7;"C4,C6,C2,C3,C1";"C_0603_1608Metric";5;"1uF";;;
-8;"D3,D1";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";2;"Red";;;
-9;"C5";"C_0603_1608Metric";1;"10uF";;;
-10;"U2";"SOT-23-5";1;"RT9078";;;
-11;"R4";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"10k";;;
-12;"U3";"TI_DGS20";1;"MSPM0L1304";;;
-13;"J2";"PinHeader_1x02_P2.54mm_Vertical";1;"Conn_01x02";;;
-14;"D2";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"Green";;;
-15;"BT1";"Battery_Holder_MPD_BCAAPC";1;"AA";;;
-16;"J1";"USBC_16P";1;"USB C";;;
-17;"SW2,SW1";"SW_Tactile_SPST_Angled_PTS645Vx58-2LFS";2;"Tactile";;;
-18;"SW8";"SW_SPDT_Slide_CK_SK12D07VG4";1;"SPDT";;;
-19;"SW7";"SW_SP4T_Slide_Samesky_SLW-147844";1;"SP4T";;;
+Qty,Value,Reference,Package,LCSC Part Number
+1,AA,BT1,Holder_Battery_AA,C5370863
+5,1uF,C1,C2,C3,C4,C6,0603,C15849
+1,10uF,C5,0603,C19702
+2,Red,D1,D3,0603,C2286
+1,Green,D2,0603,C12624
+1,IR,D4,5mm,C5130
+1,USB C,J1,USBC_16PIN,C2894897
+2,5.1k,R1,R2,0603,C23186
+5,1k,R3,R5,R6,R7,R8,0603,C21190
+1,10k,R4,0603,C25804
+2,Tactile,SW1,SW2,SW_6x6MM_4PIN_RA,C2845275
+4,Tactile,SW3,SW4,SW5,SW6,SW_6x6MM_4PIN,C2845253
+1,SP4T,SW7,SW_SP4T_6PIN_P2MM_RA,C22435626
+1,SPDT,SW8,SW_SPDT_3PIN_P2MM_RA,C22435621
+1,BQ21040,U1,SOT-23-6,C202311
+1,RT9078,U2,TSOT-23-5,C110427
+1,MSPM0L1304,U3,VSSOP-20,C22362611
