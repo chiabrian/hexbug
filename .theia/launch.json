@@ -1,0 +1,55 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Firmware",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Firmware",
+                "resourceId": "/Firmware"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "SEGGER J-Link Emulator_0",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues>\n\n  <property id=\"ClearBreakpointsOnLoad\">\n    <curValue>1</curValue>\n  </property>\n\n  <property id=\"ResetOnRestart\">\n    <curValue>1</curValue>\n  </property>\n\n  <property id=\"VerifyAfterProgramLoad\">\n    <curValue>Full verification</curValue>\n  </property>\n\n  <property id=\"HaltOnConnect\">\n    <curValue>1</curValue>\n  </property>\n\n  <property id=\"AutoResetOnConnect\">\n    <curValue>1</curValue>\n  </property>\n\n</PropertyValues>\n"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe_0",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MSPM0L1304.ccxml",
+            "type": "ccs-debug",
+            "request": "launch",
+            "targetConfig": "${workspaceFolder}\\Firmware\\targetConfigs\\MSPM0L1304.ccxml"
+        }
+    ]
+}
