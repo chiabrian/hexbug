@@ -3111,7 +3111,7 @@
 				(pin bidirectional line
 					(at 20.32 -5.08 180)
 					(length 3.81)
-					(name "PA18/A7"
+					(name "PA18/A7/BSL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7309,6 +7309,12 @@
 		(uuid "41f2ebbb-eadc-4f97-81be-784e94da38bd")
 	)
 	(junction
+		(at 50.8 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4480a517-0c58-4172-8c9c-775d4e120fa9")
+	)
+	(junction
 		(at 217.17 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7343,6 +7349,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "650b1d80-ca36-4ac4-ad20-045a92812951")
+	)
+	(junction
+		(at 172.72 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7571e852-ec0c-48d3-8ce0-eb7807540cb5")
 	)
 	(junction
 		(at 189.23 82.55)
@@ -7721,6 +7733,16 @@
 			(type default)
 		)
 		(uuid "294542a3-9c88-4b88-ac39-dde2c501c265")
+	)
+	(wire
+		(pts
+			(xy 172.72 133.35) (xy 194.31 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2954267e-e8eb-4407-b2a5-76d3bb8d1fbe")
 	)
 	(wire
 		(pts
@@ -8134,6 +8156,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 120.65) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f069013-d941-4dab-9a80-c956019a4b5c")
+	)
+	(wire
+		(pts
 			(xy 128.27 168.91) (xy 128.27 171.45)
 		)
 		(stroke
@@ -8254,7 +8286,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 120.65) (xy 85.09 120.65)
+			(xy 36.83 120.65) (xy 50.8 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8554,6 +8586,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 133.35) (xy 172.72 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d052c485-7f88-44a5-8d66-984cac06656a")
+	)
+	(wire
+		(pts
 			(xy 217.17 80.01) (xy 217.17 59.69)
 		)
 		(stroke
@@ -8561,6 +8603,16 @@
 			(type default)
 		)
 		(uuid "d27cb98a-f9e1-4415-8382-bc3436af611e")
+	)
+	(wire
+		(pts
+			(xy 172.72 116.84) (xy 172.72 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d959ca-f531-4225-bea8-4e5ce5db64b7")
 	)
 	(wire
 		(pts
@@ -8681,16 +8733,6 @@
 			(type default)
 		)
 		(uuid "f117b98e-1327-4872-85e5-3efa4972ea40")
-	)
-	(wire
-		(pts
-			(xy 125.73 133.35) (xy 194.31 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2c0d332-66c0-48a4-b33e-51fb6e7397fa")
 	)
 	(wire
 		(pts
@@ -11310,6 +11352,214 @@
 		)
 	)
 	(symbol
+		(lib_id "-Local_Lib:Resistors/RES-000010")
+		(at 50.8 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e643166-7915-4b09-938f-293c816f4f6d")
+		(property "Reference" "R10"
+			(at 53.34 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 53.34 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 51.816 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Res Thick 10k 1/10W 1% 0603"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1/10W"
+			(at 53.34 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "RC0603FR-0710KL"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 2" "Uni-Royal"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 2" "0603WAF1002T5E"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25804"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41ab6c41-19ef-49c7-b77d-e6ebf6abf697")
+		)
+		(pin "2"
+			(uuid "c0a2583f-aa79-4611-82e3-0daf090f4205")
+		)
+		(instances
+			(project "hexbug_remote"
+				(path "/04383375-1719-4c0d-877c-ff4fedd005c5"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 172.72 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f5e21a7-570d-4825-8e90-4952ab3ce51b")
+		(property "Reference" "#PWR022"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a19a717-41d7-43fb-a8be-759a8fd0f830")
+		)
+		(instances
+			(project "hexbug_remote"
+				(path "/04383375-1719-4c0d-877c-ff4fedd005c5"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-Local_Lib:Mechanical/MECH-000004")
 		(at 55.88 177.8 90)
 		(unit 1)
@@ -12579,6 +12829,148 @@
 			(project "hexbug_remote"
 				(path "/04383375-1719-4c0d-877c-ff4fedd005c5"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-Local_Lib:Resistors/RES-000010")
+		(at 172.72 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "893b40ba-ae5c-486a-9176-a043405ab133")
+		(property "Reference" "R11"
+			(at 175.26 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 175.26 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 173.736 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Res Thick 10k 1/10W 1% 0603"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1/10W"
+			(at 175.26 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "RC0603FR-0710KL"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 2" "Uni-Royal"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 2" "0603WAF1002T5E"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25804"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc7135b7-2210-46e8-a03a-d8c319e07ec8")
+		)
+		(pin "2"
+			(uuid "e0a72d05-78a6-4cbf-9507-28c0e56acb5c")
+		)
+		(instances
+			(project "hexbug_remote"
+				(path "/04383375-1719-4c0d-877c-ff4fedd005c5"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -14635,6 +15027,72 @@
 			(project "hexbug_remote"
 				(path "/04383375-1719-4c0d-877c-ff4fedd005c5"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 50.8 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd41cc41-704c-4cb7-9eb9-743d0c05f290")
+		(property "Reference" "#PWR021"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 50.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df206de0-0d06-42c7-8be0-815270bf74db")
+		)
+		(instances
+			(project "hexbug_remote"
+				(path "/04383375-1719-4c0d-877c-ff4fedd005c5"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
